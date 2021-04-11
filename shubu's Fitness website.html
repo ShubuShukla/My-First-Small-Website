@@ -1,0 +1,129 @@
+﻿<html>
+
+<head>
+
+<title>
+
+ My First Website Using HTML and CSS
+
+</title>
+
+<link rel="stylesheet" href="css/style.css" >
+
+<style>
+
+body {color : white ;
+background-image: url(" fitness.jpg");
+
+height : 4455 px ; }
+
+.left { display : inline-block ; position: absolute ; left: 34px ; top: 10px ;}
+
+.left img{ width : 110px;}
+
+.left div{text-align : center; }
+
+.center { margin : 30px auto ; width : 45% ;}
+
+.right { position: absolute ; right: 34px ; top: 25px ; display: inline-block ; }
+
+.navbar li { display : inline-block ; font-size : 22px ; }
+
+.navbar li a { color : white ; text-decoration : none ; padding : 40px 15px; font-size: 22px;  }
+
+.navbar li a:hover, .navbar li a.active { text-decoration : underline;}
+
+.btn {margin : 0px 9px ;font-size : 15px ; padding : 8px 8px ; border : 2px solid grey ; border-radius : 10px ;cursor:pointer ;}
+
+.btn:hover {background-color : grey ;}
+
+.container { float: right; border : 2px solid white ; margin : 150px 60px ;padding : 75px ; width : 33% ; border-radius :10px ; }
+
+.forms input { text-align : center ; display: block ; width : 450px ; padding : 10px ; border : 2px solid black ;
+ font-size:22px;border-radius : 25px ; margin: 11px auto;}
+
+.container h1{text-align : center; }
+
+.container button{display:block ;width : 50% ; margin :2px auto; text-align: center; border-radius : 25px;}
+
+</style>
+
+</head>
+
+<body>
+
+<header class= "header" >
+
+<div class="left">    <!-- left box for logo -->
+
+<img src="images1.jpg"  alt="sorry">
+
+<div> Shubu Fitness </div>
+
+</div>
+
+<div class="center">  <!-- center box for navigation bar -->
+
+<ul class="navbar">
+
+<li><a href ="#"> Home </a>  </li>
+
+<li><a href ="#">  About Us </a>  </li>
+
+<li><a href ="#"> Fitness Calculator </a>  </li>
+
+<li><a href ="#">  Contact Us  </a> </li>
+
+</div>
+
+<div class="right"> <!-- right box for buttons -->
+
+<button class="btn"> Call Us  </button>
+
+<button class="btn"> Email Us </button>
+
+</div>
+
+</header>
+
+<div class="container" > 
+
+<h1> Join The Best Gym of Varanasi </h1>
+
+<form action="noaction.php" >
+
+<div class="forms">
+
+<input type="text" name=" " placeholder="Enter your name">
+
+</div>
+
+<div class="forms">
+
+<input type="text" name=" " placeholder="Enter your Age">
+
+</div>
+
+
+<div class="forms">
+
+<input type="text" name=" " placeholder="Enter your Gender">
+
+</div>
+
+
+<div class="forms">
+
+<input type="text" name=" " placeholder="Enter your Locality">
+
+</div>
+
+<button class="btn">Submit</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
